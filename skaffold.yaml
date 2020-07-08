@@ -16,5 +16,7 @@ deploy:
           istioDomain: "{{.ISTIO_DOMAIN}}"
           productName: "{{.PRODUCT_NAME}}"
           nodeEnv: "{{.NODE_ENV}}"
-	setValues:
-	  hpa.enabled: true
+        setValues:
+          hpa.enabled: true
+          canary.enabled: true
+
