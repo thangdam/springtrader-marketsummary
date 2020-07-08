@@ -17,4 +17,4 @@ deploy:
           productName: "{{.PRODUCT_NAME}}"
           nodeEnv: "{{.NODE_ENV}}"
 	setValues:
-  	  hpa.enabled: true
+	  hpa.enabled: true
